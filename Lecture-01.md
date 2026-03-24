@@ -573,7 +573,7 @@ hideInToc: true
 # Relationship with Software Development
 ## Development Models
 - Agile
-<img src="./media/1/Agile.png" style="width: 65%">
+<img src="./media/1/Agile.png" style="width: 55%">
 ---
 # Now what?
 - We will cover the following concepts:

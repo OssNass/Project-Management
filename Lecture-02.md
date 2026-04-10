@@ -244,6 +244,7 @@ hideInToc: true
 # Git: The CLI
 - There are GUI tools for get, by they encapsulate the Git CLI
 - There are a lot of commands, we will look at:
+	- Clone
 	- init
 	- branch
 	- pull
@@ -275,14 +276,19 @@ hideInToc: true
 ```
 # Git: The CLI
 ## Pull/Fetch
-- pull
+- clone
+	- Used to get an entire repository
 	- Downloads an entire git repository from the remote server to your local machine
 		- `git pull https://someserver/someuser/somerepo.git`
 	- Sometimes, we want  to download the last version of the repo only, we use the depth parameter
 		- `git pull https://someserver/someuser/somerepo.git --depth 1`
 		- the depth parameter controls the number of commits pulled
+- pull
+	- Updates a current branch to match the remote
+	- Changes are visible to the user immediately
 - fetch
-	- similar to pull, but it downloads the latest changes to branch or an existing repository while pull creates a repository locally and download its information from the server
+	- similar to pull, but it downloads the latest changes to a branch
+	- Doesn't change anything, changes remain in background.
 	- Pull is actually fetch + merge
 
 --- 

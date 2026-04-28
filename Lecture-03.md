@@ -59,7 +59,7 @@ hideInToc: true
 - Scripts was unrelaible and VMs where way to heavy
 - As a result this company developed it own solution
 - A tool that standardized the containers in LXC and started using it
-- It was to good that other companies started asking .Cloud about the tool not the PAAS
+- It was too good that other companies started asking .Cloud about the tool not the PAAS
 - As a result .Cloud took a bald step forward and announced Docker as an opensource software at PyCon 2013
 ---
 
@@ -103,14 +103,14 @@ services:
     container_name: gitlab restart: always 
     hostname: 'domain' 
     environment: GITLAB_OMNIBUS_CONFIG: |
-:  external_url 'http://domain'
+    external_url 'http://domain' 
     shm_size: '256m' 
     ports: 
-: - '2424:22' 
+      - '2424:22' 
     volumes: 
-: - '/opt/gitlab/gitlab/config:/etc/gitlab' 
-: - '/opt/gitlab/gitlab/logs:/var/log/gitlab' 
-: - '/opt/gitlab/gitlab/data:/var/opt/gitlab'
+      - '/opt/gitlab/gitlab/config:/etc/gitlab' 
+      - '/opt/gitlab/gitlab/logs:/var/log/gitlab' 
+      - '/opt/gitlab/gitlab/data:/var/opt/gitlab' 
 ```
 ---
 
@@ -683,7 +683,7 @@ services:
 # Is This All?
 - No, it is not.
 - We still have a lot to do with docker
-- What is this `label` thing, and what the hevk `Traefik`
+- What is this `label` thing, and what the heck `Traefik`
 - Do we need to manage everything using CLI or is there some kind of UI
 - Can we build a stack using docker only?
 ## We will discuss all those point when doing CI/CD next week

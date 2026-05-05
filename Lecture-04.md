@@ -657,7 +657,7 @@ hideInToc: true
 - I need to monitor my system and read the logs of my containers
 	- This is Graffana, which is a system monitoring tool
 		- It has its own system of plugins to like Prometheus for monitoring the host system and Promtail with Loki for log management
-- (Repository link will be provided here containing a valid configuration for these software)
+- https://github.com/OssNass/stack
 ---
 
 ```yaml

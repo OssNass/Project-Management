@@ -501,7 +501,7 @@ hideInToc: true
 - That is CoW, we store only the change to the original state.
 - But what about changes during container runtime, do they move to images?
 	- As we said images are made out of layers, so every change even during runtime creates a new layer (editable at this time)
-	- When we create a new container based on an image, we don't copy the image we reference it (think of it as git) and when we change we create a new layer containing the changes
+	- When we create a new container based on an image, we don't copy the image we reference it (think of it as git) and when we change we create a new layer containing the changes, this layer is container specific not image, meaning we don't change the image at all
 ---
 
 # Docker Ultimate Weapon

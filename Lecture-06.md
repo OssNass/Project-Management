@@ -16,7 +16,7 @@ layout: cover
 
 ## Lecture 6
 
-### JRIA Fundamentals
+### JIRA Fundamentals
 
 Dr. Ossama Nasser
 

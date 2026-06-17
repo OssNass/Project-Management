@@ -11,7 +11,7 @@ hideInToc: "true"
 ---
 
 # Project Management
-## Lecture 8  
+## Lecture 9  
 Time & Money
 
 
